@@ -1,0 +1,34 @@
+tags: flex 
+
+<body>
+    <div class="box"></div>
+</body>
+
+
+Q- Which one of the following will align the box to right center of the screen:
+
+a) body{
+    display:flex;
+    justify-content: center;
+    align-items: right;
+}
+
+b) body{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+c) body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height:100vh;
+}
+
+d) none of them 
+
+Solution: 
+
+c 

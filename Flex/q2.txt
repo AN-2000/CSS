@@ -1,0 +1,16 @@
+tags: flex 
+
+Q- You want children in flexbox container to overflow. Which property can be used?
+
+a) flex-wrap: nowrap
+
+b) flex-wrap: overflow
+
+c) flex-wrap: none
+
+d) flex-wrap: wrap
+
+Solution:
+
+a
+

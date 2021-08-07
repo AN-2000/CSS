@@ -1,0 +1,18 @@
+tags: flex 
+
+Q- You have a container with display:flex and its children are set in a row. You want the items to be displayed in the opposite order in, which property will you use:
+
+a) flex-direction: column-reverse
+
+
+b) flex-direction: row-reverse
+
+
+c) flex-direction: row-order-reverse
+
+
+d) flex-direction: reverse
+
+Solution:
+
+b 

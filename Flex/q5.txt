@@ -1,0 +1,15 @@
+tags: flex 
+
+Q- In a flexbox the parent usually try to fit all its children into a its width which leads to reduction in size of children's width some times. How to fix this?
+
+a) using flex-shrink:0 
+
+b) using flex-grow:1
+
+c) making parent overflow:auto
+
+d) a and c 
+
+Solution:
+
+d 

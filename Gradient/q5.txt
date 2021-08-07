@@ -1,0 +1,16 @@
+tags: gradient
+
+Q- Which of the following are a type of gradient in css?
+
+a) linear 
+
+b) radial 
+
+c) conic 
+
+d) all of them 
+
+
+Solution:
+
+d

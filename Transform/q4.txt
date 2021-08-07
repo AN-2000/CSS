@@ -1,0 +1,16 @@
+tags: flex, transform, margin 
+
+Q- How can we centre an element?
+
+a) Using flexbox
+
+b) Using transform
+
+c) Using margin
+
+d) All the above 
+
+Solution:
+
+d 
+

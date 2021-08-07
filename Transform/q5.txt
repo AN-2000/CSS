@@ -1,0 +1,15 @@
+tags: transform
+
+Q- translate function of transform css rule can move the element in which of the following axis:
+
+a) x 
+
+b) y
+
+c) z
+
+d) x and y 
+
+Solution: 
+
+d

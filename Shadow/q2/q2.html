@@ -1,0 +1,70 @@
+<!-- Q- Create a custom progress bar with 60% coverage shown as per image given -->
+
+<!-- tags: custom progress bar, border, shadow, position, calc, pseudo elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Solution: -->
+    <!-- <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .progress-completed,
+      .progress-bar {
+        border-radius: 50px;
+      }
+      .progress-bar {
+          box-shadow: 0px 0px 50px 0px rgba(170, 170, 170, 0.466);
+        position: relative;
+        height: 8vh;
+        width: 60vw;
+      }
+
+      .progress-completed {
+        height: 100%;
+        width: 60%;
+        background: #b3ffab; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #12fff7,
+          #b3ffab
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #12fff7,
+          #b3ffab
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      .progress-bar::before {
+        content: "60%";
+        display: block;
+        position: absolute;
+        top: -6rem;
+        left: calc(50% - 2.5rem);
+        color: #12fff7;
+        text-shadow: 0px 0px 2px;
+        font-size: 5rem;
+      } -->
+    </style>
+  </head>
+  <body>
+    <div class="progress-bar">
+      <div class="progress-completed"></div>
+    </div>
+  </body>
+</html>

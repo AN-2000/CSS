@@ -1,0 +1,15 @@
+tags: media query 
+
+Q- What does the screen keyword in media query apply to :
+
+a) device's physical screen
+
+b) browser's viewport
+
+c) both 
+
+d) none 
+
+Solution:
+
+b 

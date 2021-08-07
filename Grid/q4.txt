@@ -1,0 +1,15 @@
+tags: grid 
+
+Q- Which model can be used to layout items in 2 dimensions?
+
+a) CSS Box model
+
+b) CSS3 Flexbox Box model
+
+c) CSS3 Grid Layout model
+
+d) CSS float
+
+Solution:
+
+c

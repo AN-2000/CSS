@@ -1,0 +1,15 @@
+tags: flex 
+
+Q- Flex is used to layout elements in how many dimensions?
+
+a) 1
+
+b) 2
+
+c) 3
+
+d) 4
+
+Solution:
+
+a

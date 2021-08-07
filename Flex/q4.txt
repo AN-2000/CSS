@@ -1,0 +1,18 @@
+tags: flex 
+
+Q- Which of the following statements are true:
+
+I => vertical align propety can be used to write super and sub script 
+II => align-items can only be used with flexbox 
+
+a) I 
+
+b) II 
+
+c) both 
+
+d) none 
+
+Solution:
+
+c  
