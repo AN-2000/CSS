@@ -1,0 +1,58 @@
+<!-- Q- In the current code, you have 6 boxes and all of them shows in a line. Write media queries such that on desktop devices all 6 of them come in a single line, in tablet devices they come in 2 rows of 3, and in mobile devices they come in 3 row of 2. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      .box {
+        height: calc( ( 100vw - 18rem ) / 6 );
+        width: calc( ( 100vw - 18rem ) / 6 );
+        margin: 1.5rem;
+        border: 1px solid;
+      }
+
+      /* Solution:  */
+      /* @media (max-width: 1024px) {
+        .box {
+        height: calc( ( 100vw - 9rem ) / 3 );
+        width: calc( ( 100vw - 9rem ) / 3 );
+      }
+      }
+
+      @media (max-width: 600px) {
+        .box {
+        height: calc( ( 100vw - 6rem ) / 2 );
+        width: calc( ( 100vw - 6rem ) / 2 );
+      }
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

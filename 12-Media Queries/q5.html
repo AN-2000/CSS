@@ -1,0 +1,67 @@
+<!-- Q- Usually a web page in desktop mode has a lot of information, this should not be in case of mobile and tablet version, so read the text below and using media queries hide or show them accordingly, also if there is text which can be hidden is some version of website, highlight it with yellow color when visible  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      /* Solution:  */
+
+      /* pre,
+      .subtext {
+        background-color: yellow;
+      }
+
+      @media (max-width: 1024px) {
+        pre {
+          display: none;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .subtext {
+          display: none;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>This is an important heading, should be visible in all devices</h1>
+    <p class="subtext">
+      Some subtext which should be hidden in mobile devices but not on tablet
+    </p>
+    <hr />
+    <p>
+      <b>main paras , should be visible in all devices</b> <br />Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Error, repellendus aliquid,
+      repudiandae nobis omnis vel mollitia est illum modi ex eum expedita, sint
+      et nam aperiam iusto illo excepturi soluta ipsum officia. Temporibus
+      dolores voluptas, tempora laudantium, veniam unde facere velit sapiente
+      quibusdam nam delectus doloribus modi, soluta neque autem?
+    </p>
+    <p>
+      <b>main paras , should be visible in all devices</b> <br />Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Error, repellendus aliquid,
+      repudiandae nobis omnis vel mollitia est illum modi ex eum expedita, sint
+      et nam aperiam iusto illo excepturi soluta ipsum officia. Temporibus
+      dolores voluptas, tempora laudantium, veniam unde facere velit sapiente
+      quibusdam nam delectus doloribus modi, soluta neque autem?
+    </p>
+    <pre>
+        text before footer should be hidden in tablet as well as mobile
+    </pre>
+    <footer>This is important and should be visible in all devices</footer>
+  </body>
+</html>
